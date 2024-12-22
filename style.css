@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Pretendard';
+    src: url('fonts/Pretendard-Bold.woff2') format('woff2');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Pretendard';
+    src: url('fonts/Pretendard-Light.woff2') format('woff2');
+    font-weight: 300;
+}
+body {
+    font-family: 'Pretendard', sans-serif;
+    background: linear-gradient(180deg, #6f00ff 0%, #ff009d 100%);
+    aspect-ratio: 1/2;
+}
+.text {
+    font-size: 68px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    padding: 5em 2em;
+}
